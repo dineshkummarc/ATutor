@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /************************************************************************/
 <<<<<<< HEAD
@@ -234,4 +235,15 @@ include_once('html/group_meeting.inc.php');
 
 require (AT_INCLUDE_PATH.'footer.inc.php');
 >>>>>>> old_a/master
+=======
+<?php
+define('AT_INCLUDE_PATH', '../../include/');
+require (AT_INCLUDE_PATH.'vitals.inc.php');
+$_custom_css = $_base_path . 'mods/calendar/css/calendar.css'; // use a custom stylesheet
+require (AT_INCLUDE_PATH.'header.inc.php');
+ 
+include("calendar.php");
+
+require (AT_INCLUDE_PATH.'footer.inc.php'); 
+>>>>>>> old_b/master
 ?>
