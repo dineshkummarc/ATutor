@@ -1,1 +1,0 @@
-<?php   header("Location: /klore/tools/file_manager.php?CurrentDirectory=FOLDER_3edeb3a045e885.95373503/");?>
